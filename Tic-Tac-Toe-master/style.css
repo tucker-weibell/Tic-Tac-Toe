@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.board {
+    width: 300px;
+    height: 300px;
+    border: solid black 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+.square:hover {
+    opacity: 93%;
+    cursor: pointer;
+}
+
+h1 {
+    width: 120px;
+}
+
+.outerPlayer {
+    margin: auto;
+}
+
+.player {
+    width: 340px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.char {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    padding: 0px;
+    padding-top: 20px;
+}
+
+#count {
+    color: black;
+}
+
+#done {
+    color: black;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width:100%;
+}
